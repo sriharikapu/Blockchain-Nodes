@@ -1,8 +1,8 @@
 # Blockchain-Nodes
 
+```
 ./litecoin-cli -testnet -getinfo
 
-`
 {
   "version": 170100,
   "protocolversion": 70015,
@@ -20,4 +20,4 @@
   "relayfee": 0.00001000,
   "warnings": ""
 }
-`
+```
