@@ -1,7 +1,13 @@
 # Blockchain-Nodes
 
+Navigate to `/home/ubuntu/litecoin/src` and modify the `litecoin.conf` file.
+
 ```
-./litecoin-cli -testnet -getinfo
+To run the node use the below command
+- ./litecoind -daemon
+
+To check if your node is running or not use the below command
+- ./litecoin-cli -testnet -getinfo
 
 {
   "version": 170100,
