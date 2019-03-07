@@ -27,3 +27,23 @@ To check if your node is running or not use the below command
   "warnings": ""
 }
 ```
+
+For ethereum 
+```
+$ geth --testnet attach
+Welcome to the Geth JavaScript console!
+
+Geth/v1.8.23-stable-c9427004/linux-amd64/go1.10.4
+ modules: admin:1.0 debug:1.0 eth:1.0 ethash:1.0 miner:1.0 net:1.0 personal:1.0 rpc:1.0 txpool:1.0 web3:1.0
+
+> eth.syncing
+{
+  currentBlock: 3881442,
+  highestBlock: 3881507,
+  knownStates: 7984789,
+  pulledStates: 7983110,
+  startingBlock: 15744
+}
+> eth.blocknumber
+undefined
+```
